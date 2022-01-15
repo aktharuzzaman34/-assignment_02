@@ -74,6 +74,7 @@ div li a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    padding-bottom: 15px;
 }
     
 .popular h2{
