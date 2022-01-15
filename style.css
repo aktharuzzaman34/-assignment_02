@@ -37,6 +37,7 @@ div li a{
 }
 .preebook-arrow{
     display: flex;
+    padding: 5px;
 }
 .pree-arrow{
     text-decoration: none;
@@ -54,4 +55,28 @@ div li a{
 .sensor{
     display: flex;
 }
+/* 
+    logos
+           */
+.logos{
+    display: flex;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
 
+/* 
+    Popular Collection
+                         */
+.popular h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.collect-detail{
+    width: 50%;
+    text-align: justify;
+}
