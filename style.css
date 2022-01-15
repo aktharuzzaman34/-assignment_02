@@ -20,6 +20,9 @@ div li a{
     display: flex;
     padding: 10px;
 }
+.menu > ul > li{
+    float: right;
+}
 .influencer{
     width: 50%;
     padding-left: 5%;
@@ -71,15 +74,14 @@ div li a{
     Popular Collection
                          */
 .popular{
-    padding: 15px;
+    padding: 10px;
 }
 .collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 15px;
     padding: 15px;
-    margin-left: 5%;
-    margin-right: 5%;
+    
 }
 .collect{
     margin-left: 5%;
@@ -87,7 +89,7 @@ div li a{
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 20px;
-    box-shadow: 10px 10px 15px gray;
+    box-shadow: 10px 10px 40px gray;
 }
 .collect-banner{
     margin-bottom: 10px;
@@ -123,4 +125,43 @@ div li a{
 }
 .fa-star-half-alt{
     color: #FFC014;
+}
+/* see-more */
+.more-item{
+    display: flex;
+    padding: 5px;
+}
+.more{
+    text-decoration: none;
+    background-color: violet;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 40px;
+    margin-bottom: 200px;
+}
+.see-more{
+    text-decoration: none;
+    color: white;
+}
+#more-collection{
+    float: right;
+}
+
+/* 
+    optional
+              */
+.media{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.media-exposure{
+    width: 50%;
+}
+.media-exposure p{
+    text-align: justify;
+}
+.media-exposure img{
+    margin-top: 50px;
 }
