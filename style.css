@@ -25,11 +25,15 @@ div li a{
     padding-left: 5%;
     padding-right: 5%;
 }
+.influencer h1{
+    font-size: 40px;
+}
 .influencer p{
     text-align: justify;
 }
 .influencer img{
-    width: 100%;
+    width: 110%;
+    margin-top: 3em;
 }
 .preebook-arrow{
     display: flex;
