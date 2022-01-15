@@ -168,28 +168,34 @@ div li a{
 
 /* footer
          */
-.footer-align{
+#footer-align{
+   
+}
+.copy.fa-copy{
     display: flex;
 }
 .fa-copy{
     margin-top: 17px;
 }
-/* 
-    footer
-             */
+
 footer{
     text-align: center;
+    /* align-items: center; */
     color: white;
     background-color: black;
     padding: 30px;
     margin-top: 50px;
     margin-bottom: 10px;
 }
-.footer-align{
-    text-align: center;
+#footer-align{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
+/* .copy.fa-copy{
+    text-align: center;
+    align-items: center;
+} */
 
 .social-logo{
-    align-items: center;
     justify-content: space-between;
 }
