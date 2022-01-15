@@ -20,6 +20,17 @@ div li a{
     display: flex;
     padding: 10px;
 }
+.influencer{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.influencer p{
+    text-align: justify;
+}
+.influencer img{
+    width: 100%;
+}
 .preebook-arrow{
     display: flex;
 }
@@ -35,5 +46,8 @@ div li a{
 .preebook{
     text-decoration: none;
     color: white;
+}
+.sensor{
+    display: flex;
 }
 
