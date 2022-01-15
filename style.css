@@ -6,6 +6,9 @@ body{
 div > ul{
     display: flex;
 }
+.menu-ber{
+    float: right;
+}
 div li{
     list-style: none;
     margin-right: 1em;
