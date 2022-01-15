@@ -70,13 +70,30 @@ div li a{
 /* 
     Popular Collection
                          */
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+    
 .popular h2{
     text-align: center;
     font-size: 35px;
     padding-top: 30px;
     margin-top: 30px;
 }
-.collect-detail{
-    width: 50%;
+.collect-detail p{
     text-align: justify;
+}
+.collect .collect-banner img{
+    width: 200px;
+    height: 150px;
+}
+.collect-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
 }
