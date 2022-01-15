@@ -70,11 +70,28 @@ div li a{
 /* 
     Popular Collection
                          */
+.popular{
+    padding: 15px;
+}
 .collection{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
-    padding-bottom: 15px;
+    grid-column-gap: 15px;
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.collect{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px gray;
+}
+.collect-banner{
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
     
 .popular h2{
@@ -95,7 +112,7 @@ div li a{
     align-items: center;
     justify-content: space-between;
 }
-.fa-star{
+.fa-star.fa-star-half-alt{
     font-size: 12px;
 }
 .fa-star.filled{
@@ -103,4 +120,7 @@ div li a{
 }
 .fa-star.empty{
     color: #AEAEAE;
+}
+.fa-star-half-alt{
+    color: #FFC014;
 }
