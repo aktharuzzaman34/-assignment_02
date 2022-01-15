@@ -165,3 +165,31 @@ div li a{
 .media-exposure img{
     margin-top: 50px;
 }
+
+/* footer
+         */
+.footer-align{
+    display: flex;
+}
+.fa-copy{
+    margin-top: 17px;
+}
+/* 
+    footer
+             */
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.footer-align{
+    text-align: center;
+}
+
+.social-logo{
+    align-items: center;
+    justify-content: space-between;
+}
