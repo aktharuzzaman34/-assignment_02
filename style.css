@@ -97,3 +97,9 @@ div li a{
 .fa-star{
     font-size: 12px;
 }
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
