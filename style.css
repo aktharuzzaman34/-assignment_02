@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+div > ul{
+    display: flex;
+}
+div li{
+    list-style: none;
+    margin-right: 1em;
+}
+div li a{
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+
+.marketing{
+    display: flex;
+    padding: 10px;
+}
+.preebook-arrow{
+    display: flex;
+}
+.pree-arrow{
+    text-decoration: none;
+    background-color: violet;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-bottom: 200px;
+}
+.preebook{
+    text-decoration: none;
+    color: white;
+}
+
