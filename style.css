@@ -1,51 +1,62 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     padding-left: 5%;
     padding-right: 5%;
 }
-div > ul{
+
+div>ul {
     display: flex;
 }
-.menu-ber{
+
+.menu-ber {
     float: right;
 }
-div li{
+
+div li {
     list-style: none;
     margin-right: 1em;
 }
-div li a{
+
+div li a {
     text-align: right;
     text-decoration: none;
     color: black;
 }
 
-.marketing{
+.marketing {
     display: flex;
     padding: 10px;
 }
-.menu > ul > li{
+
+.menu>ul>li {
     float: right;
 }
-.influencer{
+
+.influencer {
     width: 50%;
     padding-left: 5%;
     padding-right: 5%;
 }
-.influencer h1{
+
+.influencer h1 {
     font-size: 40px;
 }
-.influencer p{
+
+.influencer p {
     text-align: justify;
 }
-.influencer img{
+
+.influencer img {
     width: 110%;
     margin-top: 3em;
 }
-.preebook-arrow{
+
+.preebook-arrow {
     display: flex;
     padding: 5px;
 }
-.pree-arrow{
+
+.pree-arrow {
     text-decoration: none;
     background-color: violet;
     padding: 10px 40px;
@@ -54,17 +65,20 @@ div li a{
     border-radius: 30px;
     margin-bottom: 200px;
 }
-.preebook{
+
+.preebook {
     text-decoration: none;
     color: white;
 }
-.sensor{
+
+.sensor {
     display: flex;
 }
+
 /* 
     logos
            */
-.logos{
+.logos {
     display: flex;
     padding: 10px;
     margin-left: 40px;
@@ -76,17 +90,19 @@ div li a{
 /* 
     Popular Collection
                          */
-.popular{
+.popular {
     padding: 10px;
 }
-.collection{
+
+.collection {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 15px;
     padding: 15px;
-    
+
 }
-.collect{
+
+.collect {
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 2%;
@@ -94,94 +110,110 @@ div li a{
     border-radius: 20px;
     box-shadow: 10px 10px 40px gray;
 }
-.collect-banner{
+
+.collect-banner {
     margin-bottom: 10px;
     margin-top: 15px;
 }
-    
-.popular h2{
+
+.popular h2 {
     text-align: center;
     font-size: 35px;
     padding-top: 30px;
     margin-top: 30px;
 }
-.collect-detail p{
+
+.collect-detail p {
     text-align: justify;
 }
-.collect .collect-banner img{
+
+.collect .collect-banner img {
     width: 200px;
     height: 150px;
 }
-.collect-info{
+
+.collect-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.fa-star.fa-star-half-alt{
+
+.fa-star.fa-star-half-alt {
     font-size: 12px;
 }
-.fa-star.filled{
+
+.fa-star.filled {
     color: #FFC014;
 }
-.fa-star.empty{
+
+.fa-star.empty {
     color: #AEAEAE;
 }
-.fa-star-half-alt{
+
+.fa-star-half-alt {
     color: #FFC014;
 }
+
 /* see-more */
-.more-item{
+.more-item {
     display: flex;
     padding: 5px;
 }
-.more{
+
+.more {
     text-decoration: none;
     background-color: violet;
-    padding: 10px 40px;
+    padding: 0px 30px;
     color: white;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
     border-radius: 40px;
     margin-bottom: 200px;
 }
-.see-more{
+
+.see-more {
     text-decoration: none;
     color: white;
 }
-#more-collection{
+
+#more-collection {
     float: right;
 }
 
 /* 
     optional
               */
-.media{
+.media {
     display: flex;
     margin-top: 100px;
     margin-left: 50px;
 }
-.media-exposure{
+
+.media-exposure {
     width: 50%;
 }
-.media-exposure p{
+
+.media-exposure p {
     text-align: justify;
 }
-.media-exposure img{
+
+.media-exposure img {
     margin-top: 50px;
 }
 
 /* footer
          */
-#footer-align{
-   
-}
-.copy.fa-copy{
+#footer-align {}
+
+.copy.fa-copy {
     display: flex;
 }
-.fa-copy{
+
+.fa-copy {
     margin-top: 17px;
 }
 
-footer{
+footer {
     text-align: center;
     /* align-items: center; */
     color: white;
@@ -190,15 +222,21 @@ footer{
     margin-top: 50px;
     margin-bottom: 10px;
 }
-#footer-align{
+
+#footer-align {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
+
 /* .copy.fa-copy{
     text-align: center;
     align-items: center;
 } */
 
-.social-logo{
+.social-logo {
     justify-content: space-between;
 }
+
+/* Mobile Devices */
+
+@media only screen and (max-width:) {}
